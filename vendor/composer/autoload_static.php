@@ -431,10 +431,13 @@ class ComposerStaticInite6d0072216c6725d3995d2d24b7173b9
     );
 
     public static $classMap = array (
+        'App\\Api\\Models\\Product' => __DIR__ . '/../..' . '/app/Api/Models/Product.php',
+        'App\\Api\\Models\\Review' => __DIR__ . '/../..' . '/app/Api/Models/Review.php',
         'App\\Backend\\Models\\Admin' => __DIR__ . '/../..' . '/app/Backend/Models/Admin.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
-        'App\\Frontend\\Student\\Models\\Admin' => __DIR__ . '/../..' . '/app/Frontend/Student/Models/User.php',
+        'App\\Frontend\\Student\\Models\\User' => __DIR__ . '/../..' . '/app/Frontend/Student/Models/User.php',
+        'App\\Frontend\\Teacher\\Models\\User' => __DIR__ . '/../..' . '/app/Frontend/Teacher/Models/User.php',
         'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
         'App\\Http\\Controllers\\Auth\\LoginController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/LoginController.php',
         'App\\Http\\Controllers\\Auth\\RegisterController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/RegisterController.php',
@@ -443,8 +446,11 @@ class ComposerStaticInite6d0072216c6725d3995d2d24b7173b9
         'App\\Http\\Controllers\\Backend\\Auth\\LoginController' => __DIR__ . '/../..' . '/app/Http/Controllers/Backend/Auth/LoginController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
         'App\\Http\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeController.php',
+        'App\\Http\\Controllers\\ProductController' => __DIR__ . '/../..' . '/app/Http/Controllers/ProductController.php',
         'App\\Http\\Controllers\\Student\\Auth\\AuthController' => __DIR__ . '/../..' . '/app/Http/Controllers/Student/Auth/AuthController.php',
+        'App\\Http\\Controllers\\Student\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/Student/HomeController.php',
         'App\\Http\\Controllers\\Teacher\\Auth\\AuthController' => __DIR__ . '/../..' . '/app/Http/Controllers/Teacher/Auth/AuthController.php',
+        'App\\Http\\Controllers\\Teacher\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/Teacher/HomeController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
         'App\\Http\\Middleware\\CheckForMaintenanceMode' => __DIR__ . '/../..' . '/app/Http/Middleware/CheckForMaintenanceMode.php',

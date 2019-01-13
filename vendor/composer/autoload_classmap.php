@@ -6,10 +6,13 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App\\Api\\Models\\Product' => $baseDir . '/app/Api/Models/Product.php',
+    'App\\Api\\Models\\Review' => $baseDir . '/app/Api/Models/Review.php',
     'App\\Backend\\Models\\Admin' => $baseDir . '/app/Backend/Models/Admin.php',
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
-    'App\\Frontend\\Student\\Models\\Admin' => $baseDir . '/app/Frontend/Student/Models/User.php',
+    'App\\Frontend\\Student\\Models\\User' => $baseDir . '/app/Frontend/Student/Models/User.php',
+    'App\\Frontend\\Teacher\\Models\\User' => $baseDir . '/app/Frontend/Teacher/Models/User.php',
     'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => $baseDir . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
     'App\\Http\\Controllers\\Auth\\LoginController' => $baseDir . '/app/Http/Controllers/Auth/LoginController.php',
     'App\\Http\\Controllers\\Auth\\RegisterController' => $baseDir . '/app/Http/Controllers/Auth/RegisterController.php',
@@ -18,8 +21,11 @@ return array(
     'App\\Http\\Controllers\\Backend\\Auth\\LoginController' => $baseDir . '/app/Http/Controllers/Backend/Auth/LoginController.php',
     'App\\Http\\Controllers\\Controller' => $baseDir . '/app/Http/Controllers/Controller.php',
     'App\\Http\\Controllers\\HomeController' => $baseDir . '/app/Http/Controllers/HomeController.php',
+    'App\\Http\\Controllers\\ProductController' => $baseDir . '/app/Http/Controllers/ProductController.php',
     'App\\Http\\Controllers\\Student\\Auth\\AuthController' => $baseDir . '/app/Http/Controllers/Student/Auth/AuthController.php',
+    'App\\Http\\Controllers\\Student\\HomeController' => $baseDir . '/app/Http/Controllers/Student/HomeController.php',
     'App\\Http\\Controllers\\Teacher\\Auth\\AuthController' => $baseDir . '/app/Http/Controllers/Teacher/Auth/AuthController.php',
+    'App\\Http\\Controllers\\Teacher\\HomeController' => $baseDir . '/app/Http/Controllers/Teacher/HomeController.php',
     'App\\Http\\Kernel' => $baseDir . '/app/Http/Kernel.php',
     'App\\Http\\Middleware\\Authenticate' => $baseDir . '/app/Http/Middleware/Authenticate.php',
     'App\\Http\\Middleware\\CheckForMaintenanceMode' => $baseDir . '/app/Http/Middleware/CheckForMaintenanceMode.php',
